@@ -1,0 +1,50 @@
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(38, 37, 34, 0.24);
+    padding: 16px 24px;
+    border-radius: 32px;
+    font-family: "Roboto", sans-serif;
+    margin: 16px 0;
+    .logo{
+            display: flex;
+            align-items: center;
+        img{}
+        h6 {
+            width: 50px;
+            margin-left: 8px;
+        }
+    }
+    .menu{
+        a {
+            margin-right: 24px;
+            padding: 8px;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+    .buttons{
+        display: flex;
+        align-items: center;
+        .search {
+            width: 37px;
+            height: 37px;
+            border-radius: 50%;
+            line-height: 50px;
+        }
+
+        .subscr {
+            padding: 12px 24px;
+            border-radius: 24px;
+            background: rgb(38, 37, 34);
+            color: white;
+            margin-left: 16px;
+            text-transform: uppercase;
+        }
+    }
+    }
